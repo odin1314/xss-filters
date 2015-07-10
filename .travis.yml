@@ -3,6 +3,12 @@ node_js:
 - '0.12'
 - '0.11'
 - '0.10'
+env:
+  global:
+    - secure: E3XLlVIiZsJmuec+8jpNX0mviSUI/KepW42Be87B85zvV4e4C7xAFJGGB4GBFf3ysQoQbSFxQoGngkoBq6pEOIRCWu+6b8MslWy3lo6L/9w5yGgobmM4JWPltl1cJdJxj9EUp/2WaB+ormHnTgv44A+LPnPN9inZvXTM8J91g/o=
+    - secure: F/o2KhvwBQhoACFpY4o3Xe48KIZ3rYyyU7RfjfYgPKTXQFYsY7Ws+qISB8xB9sSnHteX0BO0Ye8a28sdlxlpTvUqRyT1qoCbRRB/mLkLxUEg06dIf45ec+jpl3olBi6aTdYeHL5Ms40bGxPH3UJfxGjpJv05RCC1csQbRyZ72SI=
+addons:
+  sauce_connect: true
 notifications:
   email:
     recipients:
